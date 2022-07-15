@@ -1,5 +1,5 @@
 import { Component, OnInit, OnDestroy } from "@angular/core";
-import { setInterval } from "timers";
+import { setInterval, clearInterval } from "timers";
 
 @Component({
   selector: "app-child",
